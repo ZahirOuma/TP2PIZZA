@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemDetailActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="#FFB6C1"
+        android:gravity="center_vertical"
+        android:text="Pizza recipes"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="171dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="36dp"
+
+        android:src="@mipmap/icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
+
+    <TextView
+        android:id="@+id/nomPizzaItem"
+        android:layout_width="203dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="16dp"
+        android:text="Pizza barbicue"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Description :"
+
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomPizzaItem" />
+
+    <TextView
+        android:id="@+id/descriptionItem"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:text="L'univers est un lieu fascinant et mystérieux. Depuis la nuit des temps, l'humanité a cherché à comprendre les secrets du cosmos, à travers l'observation des étoiles et l'étude des phénomènes naturels. Les premières civilisations, telles que les Babyloniens, les Égyptiens et les Grecs, ont développé des calendriers basés sur les mouvements du soleil et de la lune. Ils ont construit des observatoires primitifs et élaboré des théories pour expliquer l'origine de la Terre et des astres qui l'entourent."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/ingredientsItem"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:text="L'univers est un lieu fascinant et mystérieux. Depuis la nuit des temps, l'humanité a cherché à comprendre les secrets du cosmos, à travers l'observation des étoiles et l'étude des phénomènes naturels. Les premières civilisations, telles que les Babyloniens, les Égyptiens et les Grecs, ont développé des calendriers basés sur les mouvements du soleil et de la lune. Ils ont construit des observatoires primitifs et élaboré des théories pour expliquer l'origine de la Terre et des astres qui l'entourent. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:text="Ingredients :"
+
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
