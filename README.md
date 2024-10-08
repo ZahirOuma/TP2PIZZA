@@ -10,4 +10,8 @@ Cette application Android permet de présenter différentes recettes de pizza, a
 - Transition entre plusieurs activités avec une interface utilisateur fluide.
 - Animation d'une page de démarrage (Splash Screen) avant l'affichage de la liste des pizzas.
 
+  ##Video représentative de l'application 
+
+- https://github.com/user-attachments/assets/6a62fd16-5020-4314-ab2a-e02d747d4c7c
+
   
